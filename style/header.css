@@ -1,0 +1,88 @@
+body {
+  background-image: url("../assets/blur-1.png"), url("../assets/blur-2.png");
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, contain;
+  background-color: black;
+  background-position: bottom left, top right;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+
+  height: calc(100vh - 9rem);
+
+  padding: 5% 5% 0;
+}
+
+header {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+
+  padding: 2rem;
+}
+
+.container-header {
+  width: min(60rem, 100%);
+  height: 5rem;
+
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+picture {
+  width: min(10rem, 2.6rem);
+  height: min(3.125rem);
+  object-fit: cover;
+}
+
+.navigation-header {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.navigation-header button {
+  border: transparent;
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+#get-my-coffee {
+  display: flex;
+  align-items: center;
+}
+#get-my-coffee button {
+  border: 1px solid var(--button);
+  border-radius: 6px;
+  background-color: transparent;
+  font: 800 0.8rem "Manrope";
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 0.6rem 2.3rem;
+}
+
+.title {
+  height: 100%;
+}
+
+.title img {
+  width: min(34.25rem, 100%);
+  height: min(12.75rem, 100%);
+  object-fit: cover;
+}
+
+.coffee-image {
+  display: flex;
+  justify-content: center;
+}
+
+.coffee-image img {
+  object-fit: cover;
+}

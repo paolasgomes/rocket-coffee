@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+
+:root {
+  --backgrond: #000;
+  --text-color: #fff;
+  --button: #8257e5;
+  --border: #29292e;
+  --border-menu-mobile: #a8a8b3;
+  --text-color-menu-mobile: #e1e1e6;
+}
+
+html {
+  font-size: 81.25%;
+}
+
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  html {
+    font-size: 87.5%;
+  }
+}
