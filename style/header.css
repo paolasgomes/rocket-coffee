@@ -84,8 +84,9 @@ main {
 
 @media (min-width: 768px) {
   #description-text-my-coffee,
-  .menu-toogle {
+  .menu-toggle {
     display: none;
+    visibility: hidden;
   }
 }
 
@@ -99,7 +100,8 @@ main {
   }
 
   header {
-    border-bottom: 1px solid #29292e;
+    position: relative;
+    border-bottom: 1px solid rgba(41, 41, 46, 1);
   }
 
   .navigation-header,
@@ -109,15 +111,6 @@ main {
 
   .container-header {
     justify-content: space-between;
-  }
-
-  .menu-toogle {
-    padding-bottom: 1.5rem;
-  }
-
-  .menu-toogle-image img {
-    width: 1.5rem;
-    height: 0.5rem;
   }
 
   main {
